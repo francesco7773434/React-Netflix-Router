@@ -10,7 +10,7 @@ const GalleryFilms = ({ titles, genre }) => {
   useEffect(() => {
     const fetchFilms = async () => {
       try {
-        const resp = await fetch(`http://www.omdbapi.com/?s=${titles}&apikey=ddf3b7d`);
+        const resp = await fetch(`http://www.omdbapi.com/?s=${titles}&apikey=cbd0824d`);
 
         if (resp.ok) {
           const data = await resp.json();
