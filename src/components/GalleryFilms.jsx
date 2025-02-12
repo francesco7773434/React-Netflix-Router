@@ -26,7 +26,7 @@ const GalleryFilms = ({ titles, genre }) => {
     };
 
     fetchFilms();
-  }, [titles]); // Si aggiorna solo se cambia `titles`
+  }, [titles]);
 
   return (
     <Container fluid className="px-4 mt-3 bg-dark text-white m-2">
