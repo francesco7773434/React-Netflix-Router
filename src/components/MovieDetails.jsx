@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Button, Card, Spinner, Alert } from "react-bootstrap";
 
 const MovieDetails = () => {
-  const { imdbID } = useParams(); // Recupera l'ID dalla URL
+  const { imdbID } = useParams();
   const [film, setFilm] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
